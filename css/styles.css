@@ -10833,8 +10833,7 @@ textarea.form-control-lg {
   font-size: 2rem;
 }
 
-.video-header{
-  background-image: url("../assets/video-header-lic-anto.gif");
+.video-header {
   width: 100%;
 }
 
@@ -10882,8 +10881,8 @@ textarea.form-control-lg {
 }
 
 #navbar-logo {
-  width: 4rem;
-    height: 4rem;
+  width: 5rem;
+    height: 5rem;
     border-radius: 100%;
 }
 
@@ -10956,4 +10955,13 @@ mark {
 
 .social-icon i {
   color: inherit;
+}
+.bg-dark-transparent {
+  background-color: rgba(0, 0, 0, 0.9);
+  transition: background-color 0.3s ease;
+}
+
+.navbar-scroll {
+  background-color: rgba(0, 0, 0, 0.6);
+  /* Cambia el color y ajusta la transparencia cuando hay scroll */
 }
