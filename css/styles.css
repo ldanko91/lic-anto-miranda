@@ -10865,10 +10865,27 @@ mark {
 
 .whatsapp-button {
   position: fixed;
+  bottom: 100px;
+    right: 20px;
+    z-index: 100;
+    background-color: transparent;
+    color: white;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  
+  .instagram-button {
+    position: fixed;
   bottom: 20px;
   right: 20px;
   z-index: 100;
-  background-color: #25D366;
+  background-color: transparent;
   color: white;
   border-radius: 50%;
   width: 60px;
